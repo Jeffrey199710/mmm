@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="bg.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeffrey Manos</title>
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+  
+          <div class="nav-links">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#projects" class="nav-item">projects</a>
+            <a href="#contact" class="nav-item">contact</a>
+          </div>
+  
+          <div class="toggler">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="hero container" id="home">
+        <div class="hero-info">
+         <h1 class="title">Jeffrey <span class="highlighted">Manos</span></h1>
+         <p class="hero-description">Jeffrey C. Manos | BSIT - 2C</p>
+         
+       </div>
+ 
+       <div class="hero-img">
+         <img src="bg.png" alt="Jeffrey Manos" />
+       </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="m.jpg" alt="Jeffrey Manos" />
+    </div>
+
+    <div class="about-info">
+      <h2 class="secondery-title">About Me</h2>
+
+      <p class="description">
+        I am Jeffrey Manos, a second-year student at Eastern Visayas State University (EVSU),
+         pursuing a Bachelor of Science in Information Technology (BSIT).
+         and i love playing basketball
+        
+      </p>
+
+      <p class="description">
+        I am committed to this course in my studies and continuously improving my skills. 
+      </p>
+
+      <a href="#" class="btn btn-secondery">More</a>
+    </div>
+  </section>
+
+  <div class="services container" id="services">
+    <div class="services-header">
+      <h2 class="secondery-title">Services</h2>
+    </div>
+
+    <div class="grid services-grid">
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML</h3>
+        <p class="description">
+            I use HTML to create and structure content on the web. It helps me organize text, images, links, and other elements using tags, allowing web browsers to display the information correctly.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-python"></i>
+
+        <h3>PYTHON</h3>
+        <p class="description"> 
+            I use Python for programming, data analysis, web development, and automation. It's easy to learn and versatile, with many libraries for efficient development.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p class="description">
+            I use CSS to style and design web pages. It controls the layout, colors, fonts, and overall appearance of HTML elements, making websites visually appealing and responsive.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+        <p class="description">
+           I use JavaScript to add interactivity and dynamic behavior to websites. It allows me to create features like forms, animations, and real-time updates, making web pages more engaging.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="projects container" id="projects">
+    <div class="projects-header">
+      <h2 class="secondery-title">Project</h2>
+
+      <div class="projects-tab">
+        <button class="projects-tab-btn projects-tab-btn-active" id="all">
+          All
+        </button>
+        <button class="projects-tab-btn" id="seo">Portfolio</button>
+      </div>
+    </div>
+
+    <div class="grid projects-grid">
+      <div class="grid-item projects-item all seo">
+        <img src="port.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container contact" id="contact">
+    <div class="contact-info">
+      <h2 class="secondery-title">Contact</h2>
+      <div class="info-container">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Address</h3>
+            <p>Brgy, Kadaohan Ormoc City</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Email</h3>
+            <p>jeffrey.manos@evsu.edu.ph</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Phone</h3>
+            <p>0926 005 5310</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="https://formsubmit.co/jeffrey.manos@evsu.edu.ph" method="POST">
+        <input type="hidden" name="access_key" value="">
+        <input type="text" name="Name" required placeholder="Name">
+        <input type="Email" name="email" required placeholder="Email">
+        <textarea name="Message" required placeholder="Message"></textarea>
+        <button class="btn submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+      <footer class="footer">
+    <p>&copy; 2024 Jeffrey Manos All Right Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
